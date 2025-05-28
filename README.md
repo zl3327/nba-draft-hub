@@ -45,10 +45,10 @@ To run the project locally:
 ```
    npm install
 ```
-5. Start the development server:
+4. Start the development server:
 ```
    npm run dev
 ```
-7. Open the project in your browser at:
+5. Open the project in your browser at:
 ```
    http://localhost:5173
