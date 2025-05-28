@@ -1,12 +1,54 @@
-# React + Vite
+# NBA Draft Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive NBA Draft Big Board built with **React**, **Vite**, and **Material UI**. This application allows users to explore and sort draft prospects based on scout rankings, view detailed player profiles, and add personalized scouting reports.
 
-Currently, two official plugins are available:
+## 🔧 Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/) – UI Library
+- [Vite](https://vitejs.dev/) – Build tool for fast development
+- [Material UI (MUI)](https://mui.com/) – Component styling framework
+- [React Router](https://reactrouter.com/) – Client-side routing
+- Mock Data in local `JSON` files – No backend required
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Scout rankings from ESPN, The Ringer, and CBS
+- Sorting and filtering by player or team
+- Responsive table view with ranking highlights (High/Low/Average)
+- Dynamic player profile pages
+- Editable scout report forms
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed:
+```bash
+node -v
+npm -v
+```
+
+### Installation & Run
+
+```bash
+To run the project locally:
+```
+1. Clone the repository:
+```
+   git clone https://github.com/zl3327/nba-draft-hub.git
+```
+2. Navigate to the project folder:
+```
+   cd nba-draft-hub
+```
+3. Install dependencies:
+```
+   npm install
+```
+5. Start the development server:
+```
+   npm run dev
+```
+7. Open the project in your browser at:
+```
+   http://localhost:5173
